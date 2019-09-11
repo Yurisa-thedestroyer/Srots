@@ -10,7 +10,7 @@ int PalCount(v)
 	return c;
 }
 
-void Merge()
+void Merge(char v[], int c,int m, int f)
 {
 	
 }
@@ -20,7 +20,8 @@ int MergSort(v[], int c, int f)
 	int m = (c+f)/2;
 	
 	MergSort(v[], c,  m);
-	mergsort(v[], m +1 , f)
+	Mergsort(v[], m +1 , f)
+	Merge();
 	
 	return 0;
 }
